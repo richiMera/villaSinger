@@ -17,7 +17,7 @@ const Opening: React.FC = () => {
             <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
                 <h1 style={{ marginBottom: isMobile ? '' : '57px', textAlign: 'center' }} className='c-primary'>Villa Singer</h1>
                 <div style={isMobile ? { position: 'absolute', bottom: '64px', left: '50%', transform: 'translate(-50%)' } : {}}>
-                    <Button type={'main'} text='Entra nel sito' onClick={() => { navigate('/home') }} />
+                    <Button type={'main'} text='Entra nel sito' onClick={() => { navigate('/villaSinger/home') }} />
                 </div>
             </div>
         </div>

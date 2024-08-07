@@ -14,9 +14,9 @@ const App: React.FC = () => {
 
     <Router>
       <Routes>
-        <Route path="/" element={<Opening />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/lacasa" element={<LaCasa />} />
+        <Route path="/villaSinger" element={<Opening />} />
+        <Route path="/villaSinger/home" element={<Home />} />
+        <Route path="/villaSinger/lacasa" element={<LaCasa />} />
         {/* <Route path="/home" element={<ProvaGsap />} /> */}
 
       </Routes>
